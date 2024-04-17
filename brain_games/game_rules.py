@@ -24,7 +24,7 @@ def rules(game):
         else:
             print(f'\'{user_answer}\ is wrong answer ;(.'
                   f'Correct answer was \'{correct_answer}\'.'
-                  f'\nLet's try again, {name}!')
+                  f"\nLet's try again, {name}!")
             return
     if counter = rounds:
         print(f'Congratulations, {name}!')
