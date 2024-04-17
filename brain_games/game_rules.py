@@ -10,11 +10,11 @@ def greet():
 
 def rules(game):
     name = greet()
-    print(question)
+    print(game.question)
     counter = 0
     rounds = 3
     while counter < rounds:
-        result, correct_answer = get_question()
+        result, correct_answer = game.get_question()
         print(f'Question: {result}')
         user_answer = prompt.string('Your answer: ')
 

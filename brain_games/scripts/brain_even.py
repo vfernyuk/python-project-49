@@ -6,7 +6,7 @@ from brain_games.games.brain_even import question
 
 
 def main():
-    rules(question, get_question)
+    rules(brain_even)
 
 
 if __name__ == '__main__':
