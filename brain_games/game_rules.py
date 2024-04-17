@@ -26,5 +26,5 @@ def rules(game):
                   f'Correct answer was \'{correct_answer}\'.'
                   f"\nLet's try again, {name}!")
             return
-    if counter = rounds:
+    if counter == rounds:
         print(f'Congratulations, {name}!')
