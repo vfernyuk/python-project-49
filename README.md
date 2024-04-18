@@ -3,6 +3,8 @@
 
 <a href="https://codeclimate.com/github/vfernyuk/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/bd636efa5aaa1183b28b/maintainability" /></a>
 
+Asciinema make package:
+<a href="https://asciinema.org/a/7RxytTJBvtuhRcSf1mIz1KIxc" target="_blank"><img src="https://asciinema.org/a/7RxytTJBvtuhRcSf1mIz1KIxc.svg" /></a>
 Asciinema brain-even:
 <a href="https://asciinema.org/a/ooD9ixZFfGrDjkOub0ntMifBK" target="_blank"><img src="https://asciinema.org/a/ooD9ixZFfGrDjkOub0ntMifBK.svg" /></a>
 
