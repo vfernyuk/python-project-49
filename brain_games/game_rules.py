@@ -14,8 +14,8 @@ def rules(game):
     counter = 0
     rounds = 3
     while counter < rounds:
-        result, correct_answer = game.get_question()
-        print(f'Question: {result}')
+        new_task, correct_answer = game.get_question()
+        print(f'Question: {new_task}')
         user_answer = prompt.string('Your answer: ')
 
         if user_answer == correct_answer:

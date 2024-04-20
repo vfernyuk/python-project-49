@@ -22,7 +22,7 @@ def get_question():
     symbol = choice('+-*')
     correct_answer = str(operation(symbol)(first_number,second_number))
     if first_number >= second_number:
-        result = f'{first_number} {symbol} {second_number}'
+        new_task = f'{first_number} {symbol} {second_number}'
     else:
-        result = f'{second_number} {symbol} {first_number}' 
-    return correct_answer, result
+        new_task = f'{second_number} {symbol} {first_number}' 
+    return correct_answer, new_task
