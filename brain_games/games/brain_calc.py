@@ -24,5 +24,5 @@ def get_question():
         new_task = f'{first_number} {symbol} {second_number}'
     else:
         new_task = f'{second_number} {symbol} {first_number}'
-    correct_answer = str(operation(symbol)(first_number,second_number))
+    correct_answer = str(abs(operation(symbol)(first_number,second_number)))
     return new_task, correct_answer
