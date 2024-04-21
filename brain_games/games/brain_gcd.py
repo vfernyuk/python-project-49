@@ -8,5 +8,5 @@ def get_question():
     first_number = randint(1, 100)
     second_number = randint(1, 100)
     new_task = f'{first_number} {second_number}'
-    correct_answer = str(gcd(first_number,second_number))
+    correct_answer = str(gcd(first_number, second_number))
     return new_task, correct_answer
