@@ -13,7 +13,7 @@ def get_question():
     random_index = randint(0, 9)
     hidden_number = progression[random_index]
     progression[random_index] = '..'
-    new_task = ' '.join(map(str, progression)
+    new_task = ' '.join(map(str, progression))
     correct_answer = str(hidden_number)
     return new_task, correct_answer
  
