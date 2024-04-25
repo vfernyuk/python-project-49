@@ -11,3 +11,5 @@ Asciinema brain-calc:
 <a href="https://asciinema.org/a/r77R92GtxsaqPlnImcSi2JALY" target="_blank"><img src="https://asciinema.org/a/r77R92GtxsaqPlnImcSi2JALY.svg" /></a>
 Asciinema brain-gcd:
 <a href="https://asciinema.org/a/RaaQuOJsI4oiJe6OftdEJ1AUW" target="_blank"><img src="https://asciinema.org/a/RaaQuOJsI4oiJe6OftdEJ1AUW.svg" /></a>
+Asciinema brain-progression:
+<a href="https://asciinema.org/a/4uxTsH1DCIJOOio5HPH4LolfR" target="_blank"><img src="https://asciinema.org/a/4uxTsH1DCIJOOio5HPH4LolfR.svg" /></a>
