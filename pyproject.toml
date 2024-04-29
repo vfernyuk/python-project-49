@@ -1,12 +1,20 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "The Brain Games project, which includes five interesting brain workout games"
 authors = ["Vladislav Fernyuk <fernyuk@gmail.com>"]
 readme = "README.md"
 packages = [
   { include = "brain_games" },
 ]
+classifiers = [
+  Natural Language :: English
+  Operating System :: POSIX :: Linux
+  Programming Language :: Python :: 3.10
+  Topic :: Games/Entertainment
+]
+repository = "https://github.com/vfernyuk/python-project-49.git"
+
 
 [tool.poetry.dependencies]
 python = "^3.10"
@@ -24,6 +32,7 @@ brain-prime = "brain_games.scripts.brain_prime:main"
 
 [tool.poetry.group.dev.dependencies]
 flake8 = "^7.0.0"
+
 
 [build-system]
 requires = ["poetry-core"]
