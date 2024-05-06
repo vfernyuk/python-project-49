@@ -21,23 +21,23 @@ And install package with command:
 make package install
 
 Asciinema make package:
-<a href="https://asciinema.org/a/7RxytTJBvtuhRcSf1mIz1KIxc" target="_blank"><img src="https://asciinema.org/a/7RxytTJBvtuhRcSf1mIz1KIxc.svg" /></a>
+<a href="https://asciinema.org/a/WfIi9j2zABh1jgNb5wiwemS6B" target="_blank"><img src="https://asciinema.org/a/WfIi9j2zABh1jgNb5wiwemS6B.svg" /></a>
 
 To start game "brain-even" use command:
 brain-even
-<a href="https://asciinema.org/a/ooD9ixZFfGrDjkOub0ntMifBK" target="_blank"><img src="https://asciinema.org/a/ooD9ixZFfGrDjkOub0ntMifBK.svg" /></a>
+<a href="https://asciinema.org/a/Yz1ACc6t4zbbKPXfQ5ZM3o8aE" target="_blank"><img src="https://asciinema.org/a/Yz1ACc6t4zbbKPXfQ5ZM3o8aE.svg" /></a>
 
 To start game "brain-calc" use command:
 brain-calc
-<a href="https://asciinema.org/a/r77R92GtxsaqPlnImcSi2JALY" target="_blank"><img src="https://asciinema.org/a/r77R92GtxsaqPlnImcSi2JALY.svg" /></a>
+<a href="https://asciinema.org/a/lcUretjFTUA9qxvtNrAaTwrYN" target="_blank"><img src="https://asciinema.org/a/lcUretjFTUA9qxvtNrAaTwrYN.svg" /></a>
 
 To start game "brain-gcd" use command: brain-gcd
-<a href="https://asciinema.org/a/RaaQuOJsI4oiJe6OftdEJ1AUW" target="_blank"><img src="https://asciinema.org/a/RaaQuOJsI4oiJe6OftdEJ1AUW.svg" /></a>
+<a href="https://asciinema.org/a/98NR7X2poJmID3bJHs8HfxwAo" target="_blank"><img src="https://asciinema.org/a/98NR7X2poJmID3bJHs8HfxwAo.svg" /></a>
 
-To start game "brain-porgression" use command:
+To start game "brain-progression" use command:
 brain-progression
-<a href="https://asciinema.org/a/4uxTsH1DCIJOOio5HPH4LolfR" target="_blank"><img src="https://asciinema.org/a/4uxTsH1DCIJOOio5HPH4LolfR.svg" /></a>
+<a href="https://asciinema.org/a/vEG001a5N6ogNAc1gaSjF7EjX" target="_blank"><img src="https://asciinema.org/a/vEG001a5N6ogNAc1gaSjF7EjX.svg" /></a>
 
 To start game "brain-prime" use command:
 brain-prime
-<a href="https://asciinema.org/a/WH285PTBZ8zD0RKY0Vbi0bMdF" target="_blank"><img src="https://asciinema.org/a/WH285PTBZ8zD0RKY0Vbi0bMdF.svg" /></a>
+<a href="https://asciinema.org/a/ne6pUxfkQs1nWasAXd2tMWvSS" target="_blank"><img src="https://asciinema.org/a/ne6pUxfkQs1nWasAXd2tMWvSS.svg" /></a>
