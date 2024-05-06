@@ -14,8 +14,7 @@ def is_even(a):
 def get_question():
     random_number = randint(1, 100)
     if is_even(random_number):
-       result = 'yes'
+        result = 'yes'
     else:
         result = 'no'
     return random_number, result
-

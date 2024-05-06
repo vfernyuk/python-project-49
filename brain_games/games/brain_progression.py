@@ -14,4 +14,3 @@ def get_question():
     new_task = ' '.join(map(str, progression))
     correct_answer = str(hidden_number)
     return new_task, correct_answer
- 

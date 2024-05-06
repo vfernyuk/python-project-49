@@ -20,7 +20,7 @@ def rules(game):
 
         if user_answer == correct_answer:
             print('Correct')
-            counter += 1 
+            counter += 1
         else:
             print(f'\'{user_answer}\' is wrong answer ;(.'
                   f'Correct answer was \'{correct_answer}\'.'
