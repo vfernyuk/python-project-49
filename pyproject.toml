@@ -8,10 +8,10 @@ packages = [
   { include = "brain_games" },
 ]
 classifiers = [
-    Natural Language :: English
-    Operating System :: POSIX :: Linux
-    Programming Language :: Python :: 3.10
-    Topic :: Games/Entertainment
+  "Natural Language :: English",
+  "Operating System :: POSIX :: Linux",
+  "Programming Language :: Python :: 3.10",
+  "Topic :: Games/Entertainment"
 ]
 repository = "https://github.com/vfernyuk/python-project-49.git"
 
