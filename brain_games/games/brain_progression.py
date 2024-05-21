@@ -4,7 +4,7 @@ from random import randint
 description = 'What number is missing in the progression?'
 
 
-def make_progression():
+def get_question_and_answer():
     # Расчитываем арифметическую последовательность
     start_progression = randint(1, 10)
     step_progression = randint(1, 10)
