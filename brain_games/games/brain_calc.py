@@ -4,7 +4,7 @@ from operator import add
 from operator import sub
 from operator import mul
 
-question = 'What is the result of the expression?'
+description = 'What is the result of the expression?'
 
 
 def operation(symbol):
@@ -16,7 +16,7 @@ def operation(symbol):
         return mul
 
 
-def get_question():
+def get_question_and_answer():
     first_number = randint(1, 50)
     second_number = randint(1, 50)
     symbol = choice('+-*')

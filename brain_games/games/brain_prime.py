@@ -1,6 +1,6 @@
 from random import randint
 
-question = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+description = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_prime(number):
@@ -12,7 +12,7 @@ def is_prime(number):
     return True
 
 
-def get_question():
+def get_question_and_answer():
     number = randint(0, 99)
     if is_prime(number):
         correct_answer = 'yes'
