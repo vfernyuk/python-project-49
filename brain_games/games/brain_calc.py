@@ -17,8 +17,10 @@ def operation(symbol):
 
 
 def get_question_and_answer():
-    first_number = randint(1, 50)
-    second_number = randint(1, 50)
+    min_number = 1
+    max_number = 50
+    first_number = randint(min_number, max_number)
+    second_number = randint(min_number, max_number)
     symbol = choice('+-*')
     if first_number >= second_number:
         new_task = f'{first_number} {symbol} {second_number}'

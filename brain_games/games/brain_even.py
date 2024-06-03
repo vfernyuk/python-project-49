@@ -12,7 +12,9 @@ def is_even(a):
 
 
 def get_question_and_answer():
-    random_number = randint(1, 100)
+    min_number = 1
+    max_number = 100
+    random_number = randint(min_number, max_number)
     if is_even(random_number):
         result = 'yes'
     else:

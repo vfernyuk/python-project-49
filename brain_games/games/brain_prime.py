@@ -13,7 +13,9 @@ def is_prime(number):
 
 
 def get_question_and_answer():
-    number = randint(0, 99)
+    min_number = 1
+    max_number = 99
+    number = randint(min_number, max_number)
     if is_prime(number):
         correct_answer = 'yes'
     else:

@@ -5,8 +5,10 @@ description = 'Find the greatest common divisor of given numbers.'
 
 
 def get_question_and_answer():
-    first_number = randint(1, 100)
-    second_number = randint(1, 100)
+    min_number = 1
+    max_number = 100
+    first_number = randint(min_number, max_number)
+    second_number = randint(min_number, max_number)
     new_task = f'{first_number} {second_number}'
     correct_answer = str(gcd(first_number, second_number))
     return new_task, correct_answer
