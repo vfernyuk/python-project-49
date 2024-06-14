@@ -1,8 +1,9 @@
 from random import randint
 
 
-description = 'Answer "yes" if the number is even, otherwise answer "no".'
-
+DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
+MIN_NUMBER = 1
+MAX_NUMBER = 100
 
 def is_even(a):
     if a % 2 == 0:
@@ -12,9 +13,7 @@ def is_even(a):
 
 
 def get_question_and_answer():
-    min_number = 1
-    max_number = 100
-    random_number = randint(min_number, max_number)
+    random_number = randint(MIN_NUMBER, MAX_NUMBER)
     if is_even(random_number):
         result = 'yes'
     else:

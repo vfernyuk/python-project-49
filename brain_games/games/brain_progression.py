@@ -1,25 +1,27 @@
 from random import randint
 
 
-description = 'What number is missing in the progression?'
-
+DESCRIPTION = 'What number is missing in the progression?'
+MIN_INITIAL_TERM = 1
+MAX_INITIAL_TERM = 10
+MIN_CONSTANT_DIFF = 1
+MAX_CONSTANT_DIFF = 10
+FINAL_TERM = 100
+LEN_PROGRESSION = 10
+INDEX_MIN = 0
+INDEX_MAX = LEN_PROGRESSION - 1
 
 def generate_progression():
     # Расчитываем арифметическую последовательность
-    min_initial_term = 1
-    max_initial_term = 10
-    initial_term = randint(min_initial_term, max_initial_term)
-    min_constant_diff = 1
-    max_constant_diff = 10
-    constant_diff = randint(min_constant_diff, max_constant_diff)
-    final_term = 100
-    # Длина рассчитываемой прогрессии будет равна 10 элементам
-    return list(range(initial_term, final_term, constant_diff))[:10]
+    initial_term = randint(MIN_INITIAL_TERM, MAX_INITIAL_TERM)
+    constant_diff = randint(MIN_CONSTANT_DIFF, MAX_CONSTANT_DIFF)
+    progression = [initial_term + constant_diff * i for i in range(LEN_PROGRESSION)]
+    return progression
 
 
 def hide_element(progression):
-    # Скрываем один элемент прогрессии
-    random_index = randint(0, 9)
+    # Скрываем один элемент прогрессии, состоящей из 10 членов(LEN_PROGRESSION)
+    random_index = randint(INDEX_MIN, INDEX_MAX)
     hidden_number = progression[random_index]
     progression[random_index] = '..'
     return progression, hidden_number

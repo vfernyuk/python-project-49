@@ -4,8 +4,9 @@ from operator import add
 from operator import sub
 from operator import mul
 
-description = 'What is the result of the expression?'
-
+DESCRIPTION = 'What is the result of the expression?'
+MIN_NUMBER = 1
+MAX_NUMBER = 50
 
 def operation(symbol):
     if symbol == '+':
@@ -17,10 +18,8 @@ def operation(symbol):
 
 
 def get_question_and_answer():
-    min_number = 1
-    max_number = 50
-    first_number = randint(min_number, max_number)
-    second_number = randint(min_number, max_number)
+    first_number = randint(MIN_NUMBER, MAX_NUMBER)
+    second_number = randint(MIN_NUMBER, MAX_NUMBER)
     symbol = choice('+-*')
     if first_number >= second_number:
         new_task = f'{first_number} {symbol} {second_number}'
