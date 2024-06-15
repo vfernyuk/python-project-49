@@ -4,9 +4,11 @@ from operator import add
 from operator import sub
 from operator import mul
 
+
 DESCRIPTION = 'What is the result of the expression?'
 MIN_NUMBER = 1
 MAX_NUMBER = 50
+
 
 def operation(symbol):
     if symbol == '+':
