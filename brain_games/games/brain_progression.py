@@ -28,6 +28,5 @@ def get_question_and_answer():
     hidden_element_index = randint(INDEX_MIN, INDEX_MAX)
     progression = generate_progression(initial_term, constant_diff, LEN_PROGR)
     correct_answer = str(progression[hidden_element_index])  # Сохраняем пропущенное число
-    progression_hid = progression_hidden(progression, hidden_element_index)
-    new_task = ' '.join(map(str, progression_hid))
+    new_task = progression_hidden(progression, hidden_element_index)
     return new_task, correct_answer
